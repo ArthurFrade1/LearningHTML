@@ -13,13 +13,13 @@
     <form action="">
         <h2>Dados</h2>
         <label for="inname">Name:</label>
-        <input type="text" id="inname" required>
+        <input type="text" id="inname" required placeholder="Digite your name">
         <br>
         <label for="inpass">Password:</label>
-        <input type="password" id="inpass" required>
+        <input type="password" id="inpass" required placeholder="Digite your password">
         <br>
         <label for="inemail">E-mail:</label>
-        <input type="email" id="inemail" required>
+        <input type="email" id="inemail" required placeholder="Digite your e-mail">
         <br>
         <label for="infile">File:</label>
         <input type="file" id="infile" required>
@@ -40,8 +40,7 @@
         <label for="ecchi">Ecchi</label>
         <br>
         <br>
-        <input type="submit">
-
+        
         <hr>
         <h2>Caracteristicas Importantes</h2>
         <input type="checkbox" id="Animação" name="group">
@@ -56,19 +55,25 @@
         <input type="checkbox" id="Diversão" name="group">
         <label for="Diversão">Diversão</label>
         <br>
-        <hr>        
+        <hr>         
 
         <h2>Selecione seu tipo de batalha de anime favorita</h2>
-        <select name="" id="">
+        <select name="" id="" required>
+            <option value="" selected disabled>Selecione uma opção</option>
             <option value="">Porrada</option>
             <option value="">Mental</option>
             <option value="">StrangePowers</option>
             <option value="">Espadas</option>
         </select>
+
+        <hr>
+        <h2>Deixe sua mensagem</h2>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Deixe sua mensagem" required></textarea>
         <br>
         <br>
 
         <input type="submit">
     </form>
+    <a href="../Ex1/Principal/Index.html">ComeBack</a>
 </body>
 </html>
